@@ -1,0 +1,145 @@
+# The global config of all texts.
+config: 
+  color: "#FFFFFF"
+  # Padding only effects multiple texts.
+  padding:
+    - 12  # x
+    - -3   # y
+  paddingLine:
+    - 0
+    - 0  
+  paddingSpace:
+    - 0
+    - 8
+  position:
+    - 640 # x
+    - 25  # y
+  positionOffset:
+    - 0
+    - 0
+  orientation: 1  # 0 -> horizontal; 1 -> vertical
+  fadeIn: 0
+  fadeOut: 0
+  rotation: -25  # in degrees
+  scale: 1.4
+  
+texts:
+  -
+    et: 44753 # end time
+
+    texts: 
+      -
+        st: 42978
+        text: "ワレワレハ"
+      - 
+        config:
+          positionOffset:
+            - -70
+            - 20
+          scale: 1.8
+        st: 43946
+        text: "ワレワレハ"
+  -
+    et: 47495
+    texts:
+      -
+        st: 45559
+        text: "ニャン"
+      -
+        config:
+          positionOffset:
+            - 4
+            - 8
+        st: 45559
+        text: "ニャンコ"
+      -
+        config:
+          positionOffset:
+            - -100
+            - 0
+          scale: 3
+        st: 46527
+        text: "星"
+      -
+        config:
+          positionOffset:
+            - 16
+            - 0
+          padding:
+            - 12
+            - 4
+          scale: 1.6
+        st: 46527
+        text: "人ダ"
+  -
+    config:
+      padding:
+        - 12  # x
+        - 0   # y
+    et: 113624
+
+    texts: 
+      -
+        et: 113462
+        texts:
+          -
+            st: 111204
+            text: "人生は"
+          -
+            config:
+              positionOffset:
+                - -50
+                - 25
+              scale: 1.8
+            st: 112333
+            text: "マタタビだ"
+      -
+        et: 116043
+        texts:
+          -
+            st: 113785
+            text: "ワレワレハ"
+          -
+            config:
+              positionOffset:
+                - -75
+                - 15
+              scale: 1.8
+            st: 114914
+            text: "ワレワレハ"
+          -
+            et: 118462
+            texts:
+              -
+                st: 116365
+                text: "ニャン"
+              -
+                config:
+                  positionOffset:
+                    - 4
+                    - 8
+                st: 116365
+                text: "ニャンコ"
+              -
+                config:
+                  positionOffset:
+                    - -105
+                    - -10
+                  scale: 3
+                st: 117495
+                text: "星"
+              -
+                config:
+                  positionOffset:
+                    - 16
+                    - -4
+                  padding:
+                    - 12
+                    - 4
+                  scale: 1.6
+                st: 117495
+                text: "人ダ"
+
+      
+
+    
