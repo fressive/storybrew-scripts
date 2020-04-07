@@ -1,6 +1,6 @@
 # storybrew-scripts
 
-Some scripts for crating storyboards in [storybrew](https://github.com/Damnae/storybrew).
+Some scripts for creating storyboards in [storybrew](https://github.com/Damnae/storybrew).
 
 The scripts were used in:
 
