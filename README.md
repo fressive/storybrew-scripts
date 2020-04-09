@@ -15,3 +15,11 @@ A simple script to use YAML to create lyrics and other texts.
 You need to add [SharpYAML](https://github.com/xoofx/SharpYaml) as a referenced assembly.
 
 See `test.yml` for usages.
+
+### TODO
+
+- fix padding when scaling or rotating
+
+## License
+
+MIT
